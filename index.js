@@ -3,7 +3,6 @@
 $(document).ready(function() {
   $('.drawer').drawer();
   var page = $(this).data('page');
-  console.log('antes click', page)
   if(page === undefined) {
     var a = 1+Math.round(Math.random()*10);
     if (a==1) page = "page1"
