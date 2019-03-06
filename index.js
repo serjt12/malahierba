@@ -69,6 +69,10 @@ $(document).ready(function() {
     $('.info').addClass('hide-info')
     $('.drawer-nav ul li').toggleClass('hide-content')
   })
+  $('.drawer').on('drawer.closed', function(){
+    $('.drawer-nav ul li').removeClass('hide-content')
+    $('.enlaces').addClass('hide-enlaces')
+  });
   $('.info-toggle').on('click', function() {
     $('.enlaces').addClass('hide-enlaces')
     $('.info').toggleClass('hide-info')
