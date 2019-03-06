@@ -194,7 +194,7 @@ a {
 	color:#6DFECD;
 	background-color: #000;
 }
-.close-info,{
+.close-info {
   cursor: pointer;
   position: absolute;
   color: red;
