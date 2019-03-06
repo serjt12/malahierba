@@ -181,12 +181,20 @@ a {
 }
 .enlaces {
   width: 50%;
-  height: 39.5vh;
+  height: 48.5vh;
   text-align: center;
   background: rgb(173, 172, 172, .5);
   right: 4px;
   position: absolute;
-  top: 3px;
+  bottom: 7px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 2px;
+}
+.enlaces a:hover{
+	color:#6DFECD;
+	background-color: #000;
 }
 .close-info,
 .close-enlaces {
@@ -204,6 +212,10 @@ a {
   right: 4px;
   position: absolute;
   top: 3px;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 30px;
+  line-height: 22px;
+  letter-spacing: 2px;
 }
 /* menu vertical */
 .menulista {
