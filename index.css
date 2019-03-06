@@ -1,3 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Pompiere|Roboto+Condensed:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans|Fira+Sans+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://code.cdn.mozilla.net/fonts/fira.css);
 /* Hacks para mejorar la compatibilidad con diferentes dispositivos */
 
 html {
@@ -183,7 +189,6 @@ a {
   width: 50%;
   height: 48.5vh;
   text-align: center;
-  background: rgb(173, 172, 172, .5);
   right: 4px;
   position: absolute;
   bottom: 7px;
@@ -208,7 +213,6 @@ a {
   width: 50%;
   height: 39.5vh;
   text-align: center;
-  background: rgb(173, 172, 172, .5);
   right: 4px;
   position: absolute;
   top: 3px;
