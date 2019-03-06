@@ -186,23 +186,15 @@ a {
   display: none;
 }
 .enlaces {
-  width: 50%;
-  height: 48.5vh;
-  text-align: center;
-  right: 4px;
-  position: absolute;
-  bottom: 7px;
   font-family: 'Fira Sans Extra Condensed', sans-serif;
   font-size: 30px;
-  line-height: 22px;
   letter-spacing: 2px;
 }
 .enlaces a:hover{
 	color:#6DFECD;
 	background-color: #000;
 }
-.close-info,
-.close-enlaces {
+.close-info,{
   cursor: pointer;
   position: absolute;
   color: red;

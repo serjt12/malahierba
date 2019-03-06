@@ -64,8 +64,10 @@ $(document).ready(function() {
     }
   })
   $('.enlaces-toggle').on('click', function() {
+    $('.drawer').drawer('toggle');
     $('.enlaces').toggleClass('hide-enlaces')
     $('.info').addClass('hide-info')
+    $('.drawer-nav ul li').toggleClass('hide-content')
   })
   $('.info-toggle').on('click', function() {
     $('.enlaces').addClass('hide-enlaces')
