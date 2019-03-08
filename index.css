@@ -37,11 +37,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* Base RWD */
 
 body, html {
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-
-
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  overflow: hidden;
 }
 
 a {
@@ -51,6 +50,8 @@ a {
     -o-transition: all .25s ease;
     transition: all .25s ease;
 }
+
+
 
 .fondo {
   width: 100%;
@@ -135,6 +136,22 @@ a {
 }
 .drawer-open .drawer-nav {
   width: 42%;
+  overflow-y: auto;
+}
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+
+::-webkit-scrollbar-track {
+background:#fff;
+	width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+background: #3A3A3A;
+		width: 10px;
 }
 .drawer-nav ul {
   display: flex;
@@ -242,8 +259,6 @@ ul {
   list-style-type: none;
   margin: 20px;
   padding: 0;
-	overflow: hidden;
-	position: fixed;
 	left: 30px;
   cursor: pointer;
 }
