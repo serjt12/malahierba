@@ -1,7 +1,15 @@
 
 
 $(document).ready(function() {
-  $('.drawer').drawer();
+  $('.drawer').drawer({
+    iscroll: {
+    // Configuring the iScroll
+    // https://github.com/cubiq/iscroll#configuring-the-iscroll
+    mouseWheel: false,
+    preventDefault: false
+  },
+  showOverlay: true
+  });
   var page = $(this).data('page');
   if(page === undefined) {
     var a = 1+Math.round(Math.random()*10);
